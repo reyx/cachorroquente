@@ -1,0 +1,21 @@
+#keyboard { margin: 0; padding: 0; list-style: none; }
+#keyboard li { float: left; margin: 0 5px 5px 0; width: 64px; height: 64px; line-height: 64px; text-align: center; padding: 0; font-size: 2em; }
+
+#keyboard .tab,
+#keyboard .delete { width: 60px; }
+#keyboard .capslock { width: 70px; }
+#keyboard .return { width: 57px; }
+#keyboard .left-shift { width: 81px; }
+#keyboard .right-shift { width: 83px; }
+#keyboard .submit { width: 135px; }
+#keyboard .space { clear: left; width: 541px; }
+
+.clear-left { clear: left; }
+.capslock,
+.tab,
+.left-shift { clear: left; }
+.lastitem { margin-right: 0; }
+.uppercase { text-transform: uppercase; }
+.on { display: none; }
+
+#write { width: 208px; line-height: 42px; font-size: 2em; resize: none; text-align: right; }
