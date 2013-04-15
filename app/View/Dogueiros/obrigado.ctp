@@ -1,3 +1,5 @@
+<? $this->set("title_for_layout", "Batata"); ?>
+
 <h4>
     Parabéns, <strong><? echo $dogueiro['Dogueiro']['nome'] ?></strong>!
 </h4>

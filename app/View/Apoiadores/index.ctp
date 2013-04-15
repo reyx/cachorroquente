@@ -1,3 +1,5 @@
+<? $this->set("title_for_layout", "Batata"); ?>
+
 <ul class="breadcrumb">
     <li>Nossos apoiadores</li>
 </ul>

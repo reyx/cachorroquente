@@ -4,7 +4,6 @@
     array('escape' => false)
 ) ?>
 <? # <a href="top30"><img id="lateral_botao" src="images/menu_button_top30.png" alt="Os 30 Finalistas" title="Os 30 Finalistas" border="0" /></a> ?>
-<? # <a href="votacao"><img id="lateral_botao" src="images/menu_button_votacao_aberta.png" alt="Vote no seu dogueiro" title="Vote no seu dogueiro" border="0" /></a> ?>
 <? echo $this->Html->link(
     $this->Html->image("web/menu_button_vencedores.png", array("alt" => "Os Vencedores de 2012", "title" => "Os Vencedores de 2012", "id" => "lateral_botao")),
     "/pages/vencedores",
@@ -12,8 +11,10 @@
 ) ?>
 <? # <a href="http://www.peticaopublica.com.br/?pi=FCQO" target="_blank"><img id="lateral_botao" src="images/menu_button_abaixoassinado.png" alt="Assine a petição" title="Assine a petição" border="0" /></a> ?>
 <ul class="nav">
-    <li><? echo $this->Html->link('Os 30 melhores de Osasco', array('controller' => 'dogueiros', 'action' => 'top30')) ?><? /*
-    <li><? echo $this->Html->link('Nossos Apoiadores', array('controller' => 'apoiadores', 'action' => 'index')) ?></li> */ ?>
+    <li><? echo $this->Html->link('Vote no seu dogueiro', array('controller' => 'dogueiros', 'action' => 'voto')) ?>
+    <li><? echo $this->Html->link('Inscreva seu carrinho', array('controller' => 'dogueiros', 'action' => 'cadastro')) ?>
+    <li><? echo $this->Html->link('Os 30 melhores de Osasco', array('controller' => 'dogueiros', 'action' => 'top30', 2012)) ?><? /*
+    <li><? echo $this->Html->link('Nossos Apoiadores', array('controller' => 'apoiadores', 'action' => 'index')) ?></li>*/ ?>
     <li><? echo $this->Html->link('Seja um apoiador', array('controller' => 'apoiadores', 'action' => 'cadastro')) ?></li>
     <li><? echo $this->Html->link('Sobre o Festival', array('controller' => 'pages', 'action' => 'index')) ?></li>
     <ul>
@@ -44,7 +45,7 @@
 <small>Criação e desenvolvimento:</small> <br>
 <? # <a href="http://www.temperini.com.br" target="_blank"><img src="images/evandro_temperini.png" alt="Evandro Temperini" title="Evandro Temperini" border="0"/></a></span> ?>
 <? echo $this->Html->link(
-    $this->Html->image("web/evandro_temperini.png", array("alt" => "Evandro Temperini", "title" => "Evandro Temperini", "target" => "_blank")),
+    $this->Html->image("web/evandro_temperini.png", array("alt" => "Evandro Temperini", "title" => "Evandro Temperini")),
     "http://br.linkedin.com/in/temperini",
-    array('escape' => false)
+    array('target' => '_blank', 'escape' => false)
 ) ?>

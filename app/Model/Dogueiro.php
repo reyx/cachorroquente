@@ -1,5 +1,9 @@
 <?
+    App::uses('BrValidation', 'Localized.Validation');
+
     class Dogueiro extends AppModel {
+
+        var $hasMany = array('Classificacoes' => array('className' => 'Classificacao'));
 
         public $_schema = array(
             'numero' => array('type' => 'string', 'length' => 11),
@@ -11,36 +15,18 @@
             'telefone' => array('type' => 'string', 'length' => 20)
         );
 
-        public $actsAs = array(
-            'Upload.Upload' => array(
-                'foto' => array(
-                    'fields' => array(
-                        'dir' => 'foto_dir'
-                    ),
-                    # 'pathMethod' => 'flat'
-                    'thumbnailMethod' => 'php',
-                    'thumbnailSizes' => array(
-                        'thumb' => '[120x120]'
-                    )
-                )
-            )
-        );
-
         public $validate = array(
-            'numero' => array(
-                'rule' => 'notEmpty'
-            ),
-            'nome' => array(
-                'rule' => 'notEmpty'
-            ),
             'email' => array(
-                'rule' => 'notEmpty'
+                'rule' => 'isUnique',
+                'message' => 'Email já existente.'
             ),
+            'nome' => array('allowEmpty' => false),
             'cpf' => array(
-                'rule' => 'notEmpty'
-            ),
-            'telefone' => array(
-                'rule' => 'notEmpty'
+                'allowEmpty' => false,
+                'valid' => array(
+                    'rule' => array('ssn', null, 'br'),
+                    'message' => 'CPF inválido'
+                )
             )
         );
 

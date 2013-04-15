@@ -1,0 +1,115 @@
+body,
+html {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: "#FBF2E3";
+  background-image: url("../../img/web/bg.gif");
+}
+a,
+a:hover {
+  color: #FF0000;
+}
+.container {
+  background-color: transparent;
+  background-image: url("../../img/white.png");
+}
+blockquote {
+  background: #FCFAED;
+  padding: 12px;
+  border-left-color: #FFF9CB;
+}
+.destaque {
+  background: #FCF8E3;
+  padding: 12px;
+  color: #FF0000;
+  font-weight: bold;
+}
+#menu-bg {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  opacity: 0.5;
+}
+#lateral {
+  width: 260px;
+}
+#lateral img {
+  padding-bottom: 30px;
+}
+#lateral small {
+  font-style: italic;
+  color: #999;
+  margin: 4px;
+  font-size: .9em;
+}
+#lateral .nav ul {
+  list-style: none;
+}
+#lateral .nav a {
+  color: #000000;
+  padding: 4px;
+  display: block;
+  font-size: 1em;
+}
+#lateral .nav a:hover {
+  color: #E30613;
+}
+#lateral .nav > li a {
+  font-weight: bold;
+}
+#lateral .nav > li a:hover {
+  background-color: #F8E6D3;
+}
+.breadcrumb {
+  color: #E30613;
+  font-size: 24px;
+  font-weight: bold;
+  background: none;
+  padding-left: 0;
+}
+.breadcrumb a {
+  color: #903032;
+  font-size: 18px;
+  font-weight: normal;
+}
+.breadcrumb .divider {
+  color: #903032 !important;
+}
+#conteudo,
+#lateral {
+  padding: 30px;
+}
+#conteudo {
+  min-height: 1100px;
+  background-color: #fff;
+  border-left: 1px solid #F5DDC8;
+}
+#banner {
+  width: 600px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.materia {
+  height: 280px;
+}
+.materia img {
+  width: 250px;
+  height: 199px;
+}
+.materia strong {
+  width: 250px;
+  display: block;
+  margin-top: 30px;
+  font-size: 15px;
+  height: 58px;
+}
+.align-center {
+  text-align: center;
+}
+.fancybox img {
+  margin: 4px 1px;
+}

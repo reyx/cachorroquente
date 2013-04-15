@@ -1,3 +1,5 @@
+<? $this->set("title_for_layout", "Batata"); ?>
+
 <? $this->Html->css('web/form', null, array('inline' => false)); ?>
 
 <ul class="breadcrumb">

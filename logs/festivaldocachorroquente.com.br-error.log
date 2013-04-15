@@ -1328,3 +1328,223 @@
 [Sun Apr 14 13:08:02 2013] [error] [client 127.0.0.1] PHP   6. DogueirosController->top30() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:486
 [Sun Apr 14 13:08:02 2013] [error] [client 127.0.0.1] PHP   7. Controller->loadModel() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\Controller\\DogueirosController.php:44
 [Sun Apr 14 13:08:02 2013] [error] [client 127.0.0.1] PHP   8. ClassRegistry::init() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:734
+[Sun Apr 14 16:45:23 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function link() on a non-object in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Dogueiros\\cadastro.ctp on line 3, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:45:23 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:45:23 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:45:23 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:45:23 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:45:23 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:45:23 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:45:23 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:45:23 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:45:23 2013] [error] [client 127.0.0.1] PHP   8. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:52:32 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected ':', expecting ')' in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Dogueiros\\cadastro.ctp on line 21, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:52:32 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:52:32 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:52:32 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:52:32 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:52:32 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:52:32 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:52:32 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:52:32 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:58:09 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected ';' in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\Controller\\DogueirosController.php on line 42, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:58:09 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:58:09 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:58:09 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:58:09 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_getController() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:153, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:58:09 2013] [error] [client 127.0.0.1] PHP   4. Dispatcher->_loadController() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:231, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:58:09 2013] [error] [client 127.0.0.1] PHP   5. class_exists() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:262, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 16:58:09 2013] [error] [client 127.0.0.1] PHP   6. App::load() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 17:14:57 2013] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function output() in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Dogueiros\\cadastro.ctp on line 11
+[Sun Apr 14 17:14:57 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Apr 14 17:14:57 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0
+[Sun Apr 14 17:14:57 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109
+[Sun Apr 14 17:14:57 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162
+[Sun Apr 14 17:14:57 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194
+[Sun Apr 14 17:14:57 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948
+[Sun Apr 14 17:14:57 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471
+[Sun Apr 14 17:14:57 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910
+[Sun Apr 14 17:14:57 2013] [error] [client 127.0.0.1] PHP   8. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '?' in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Elements\\menu.ctp on line 11
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   6. View->renderLayout() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:479
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   7. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:535
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   8. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   9. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  10. View->element() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Layouts\\default.ctp:47
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  11. View->_renderElement() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:414
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  12. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:1211
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  13. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '?' in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Elements\\menu.ctp on line 11
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   6. View->renderLayout() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:479
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   7. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:535
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   8. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP   9. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  10. View->element() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Layouts\\default.ctp:47
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  11. View->_renderElement() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:414
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  12. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:1211
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  13. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  14. App::shutdown() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Core\\App.php:0
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  15. App::_checkFatalError() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Core\\App.php:900
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  16. call_user_func() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Core\\App.php:927
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  17. ErrorHandler::handleError() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Core\\App.php:927
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  18. ErrorHandler::handleFatalError() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Error\\ErrorHandler.php:184
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  19. call_user_func() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Error\\ErrorHandler.php:234
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  20. ErrorHandler::handleException() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Error\\ErrorHandler.php:234
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  21. ExceptionRenderer->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Error\\ErrorHandler.php:123
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  22. call_user_func_array() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Error\\ExceptionRenderer.php:176
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  23. ExceptionRenderer->_cakeError() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Error\\ExceptionRenderer.php:176
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  24. ExceptionRenderer->_outputMessage() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Error\\ExceptionRenderer.php:198
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  25. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Error\\ExceptionRenderer.php:274
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  26. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  27. View->renderLayout() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:479
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  28. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:535
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  29. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  30. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  31. View->element() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Layouts\\default.ctp:47
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  32. View->_renderElement() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:414
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  33. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:1211
+[Sun Apr 14 18:21:17 2013] [error] [client 127.0.0.1] PHP  34. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910
+[Sun Apr 14 19:13:40 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\Controller\\DogueirosController.php on line 8, referer: http://festivaldocachorroquente.com.br/admin/users/login
+[Sun Apr 14 19:13:40 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/admin/users/login
+[Sun Apr 14 19:13:40 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/admin/users/login
+[Sun Apr 14 19:13:40 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/admin/users/login
+[Sun Apr 14 19:13:40 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_getController() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:153, referer: http://festivaldocachorroquente.com.br/admin/users/login
+[Sun Apr 14 19:13:40 2013] [error] [client 127.0.0.1] PHP   4. Dispatcher->_loadController() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:231, referer: http://festivaldocachorroquente.com.br/admin/users/login
+[Sun Apr 14 19:13:40 2013] [error] [client 127.0.0.1] PHP   5. class_exists() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:262, referer: http://festivaldocachorroquente.com.br/admin/users/login
+[Sun Apr 14 19:13:40 2013] [error] [client 127.0.0.1] PHP   6. App::load() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:0, referer: http://festivaldocachorroquente.com.br/admin/users/login
+[Sun Apr 14 19:27:47 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_STRING in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Web\\bastidores.ctp on line 8, referer: http://festivaldocachorroquente.com.br/dogueiros/voto
+[Sun Apr 14 19:27:47 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/voto
+[Sun Apr 14 19:27:47 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/voto
+[Sun Apr 14 19:27:47 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/voto
+[Sun Apr 14 19:27:47 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162, referer: http://festivaldocachorroquente.com.br/dogueiros/voto
+[Sun Apr 14 19:27:47 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194, referer: http://festivaldocachorroquente.com.br/dogueiros/voto
+[Sun Apr 14 19:27:47 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/voto
+[Sun Apr 14 19:27:47 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471, referer: http://festivaldocachorroquente.com.br/dogueiros/voto
+[Sun Apr 14 19:27:47 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910, referer: http://festivaldocachorroquente.com.br/dogueiros/voto
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP Fatal error:  Cannot redeclare class Image in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\Model\\Materia.php on line 50
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP   4. Controller->invokeAction() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:187
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP   5. Controller->_getScaffold() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:490
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP   6. Scaffold->__construct() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:531
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP   7. Controller->__get() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:122
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP   8. Controller->__isset() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:405
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP   9. Controller->loadModel() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:367
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP  10. ClassRegistry::init() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:734
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP  11. interface_exists() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Utility\\ClassRegistry.php:145
+[Sun Apr 14 20:11:44 2013] [error] [client 127.0.0.1] PHP  12. App::load() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Utility\\ClassRegistry.php:0
+[Sun Apr 14 20:35:48 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_ARRAY in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Materias\\admin_add.ctp on line 5
+[Sun Apr 14 20:35:48 2013] [error] [client 127.0.0.1] PHP Stack trace:
+[Sun Apr 14 20:35:48 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0
+[Sun Apr 14 20:35:48 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109
+[Sun Apr 14 20:35:48 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162
+[Sun Apr 14 20:35:48 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194
+[Sun Apr 14 20:35:48 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948
+[Sun Apr 14 20:35:48 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471
+[Sun Apr 14 20:35:48 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP Fatal error:  Cannot redeclare class Image in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\Model\\Voto.php on line 16, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP   8. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP   9. FormHelper->create() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Dogueiros\\voto.ctp:19, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP  10. FormHelper->_introspectModel() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\Helper\\FormHelper.php:334, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP  11. FormHelper->_getModel() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\Helper\\FormHelper.php:187, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP  12. ClassRegistry::init() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\Helper\\FormHelper.php:154, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP  13. interface_exists() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Utility\\ClassRegistry.php:145, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:33:00 2013] [error] [client 127.0.0.1] PHP  14. App::load() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Utility\\ClassRegistry.php:0, referer: http://festivaldocachorroquente.com.br/
+[Sun Apr 14 21:44:04 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected ')' in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\Controller\\DogueirosController.php on line 25, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:44:04 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:44:04 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:44:04 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:44:04 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_getController() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:153, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:44:04 2013] [error] [client 127.0.0.1] PHP   4. Dispatcher->_loadController() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:231, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:44:04 2013] [error] [client 127.0.0.1] PHP   5. class_exists() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:262, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:44:04 2013] [error] [client 127.0.0.1] PHP   6. App::load() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:51:15 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected ';' in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\Controller\\DogueirosController.php on line 51, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:51:15 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:51:15 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:51:15 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:51:15 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_getController() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:153, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:51:15 2013] [error] [client 127.0.0.1] PHP   4. Dispatcher->_loadController() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:231, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:51:15 2013] [error] [client 127.0.0.1] PHP   5. class_exists() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:262, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:51:15 2013] [error] [client 127.0.0.1] PHP   6. App::load() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:53:19 2013] [error] [client 127.0.0.1] PHP Fatal error:  Cannot use object of type Dogueiro as array in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Dogueiros\\obrigado.ctp on line 2, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:53:19 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:53:19 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:53:19 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:53:19 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:53:19 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:53:19 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:53:19 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:53:19 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:53:19 2013] [error] [client 127.0.0.1] PHP   8. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:09 2013] [error] [client 127.0.0.1] PHP Fatal error:  Cannot use object of type Dogueiro as array in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Dogueiros\\obrigado.ctp on line 2, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:09 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:09 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:09 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:09 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:09 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:09 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:09 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:09 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:09 2013] [error] [client 127.0.0.1] PHP   8. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:53 2013] [error] [client 127.0.0.1] PHP Fatal error:  Cannot use object of type Dogueiro as array in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Dogueiros\\obrigado.ctp on line 2, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:53 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:53 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:53 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:53 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:53 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:53 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:53 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:53 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:54:53 2013] [error] [client 127.0.0.1] PHP   8. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:32 2013] [error] [client 127.0.0.1] PHP Fatal error:  Cannot use object of type Dogueiro as array in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Dogueiros\\obrigado.ctp on line 2, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:32 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:32 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:32 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:32 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:32 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:32 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:32 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:32 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:32 2013] [error] [client 127.0.0.1] PHP   8. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:58 2013] [error] [client 127.0.0.1] PHP Fatal error:  Cannot use object of type Dogueiro as array in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Dogueiros\\obrigado.ctp on line 2, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:58 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:58 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:58 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:58 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:58 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:58 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:58 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:58 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:56:58 2013] [error] [client 127.0.0.1] PHP   8. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:58:25 2013] [error] [client 127.0.0.1] PHP Fatal error:  Cannot use object of type Dogueiro as array in C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\View\\Dogueiros\\obrigado.ctp on line 2, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:58:25 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:58:25 2013] [error] [client 127.0.0.1] PHP   1. {main}() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:0, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:58:25 2013] [error] [client 127.0.0.1] PHP   2. Dispatcher->dispatch() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\webroot\\index.php:109, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:58:25 2013] [error] [client 127.0.0.1] PHP   3. Dispatcher->_invoke() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:162, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:58:25 2013] [error] [client 127.0.0.1] PHP   4. Controller->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Routing\\Dispatcher.php:194, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:58:25 2013] [error] [client 127.0.0.1] PHP   5. View->render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\Controller\\Controller.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:58:25 2013] [error] [client 127.0.0.1] PHP   6. View->_render() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:471, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:58:25 2013] [error] [client 127.0.0.1] PHP   7. View->_evaluate() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:910, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro
+[Sun Apr 14 21:58:25 2013] [error] [client 127.0.0.1] PHP   8. include() C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\lib\\Cake\\View\\View.php:948, referer: http://festivaldocachorroquente.com.br/dogueiros/cadastro

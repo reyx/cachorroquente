@@ -1,3 +1,5 @@
+<? $this->set("title_for_layout", "Batata"); ?>
+
 <ul class="breadcrumb">
     <li>Os 3 melhores cachorros-quentes de Osasco</li>
 </ul>
@@ -21,10 +23,12 @@ Todos vocês merecem esta homenagem.</p><br />
 <blockquote>Calçadão da Antônio Agú - Centro - Osasco/SP</blockquote>
 
 <br>
+<br>
 
 <p>3º Colocado:</span> <strong><u>Gisele Daiani Rala</u></strong></p>
 <blockquote>Calçadão da Antônio Agú - Centro - Osasco/SP</blockquote>
 
+<br>
 <br>
 
 <p><a href="/pages/top30/">Confira a lista com os <b>30 melhores</b> de Osasco...</a></p>

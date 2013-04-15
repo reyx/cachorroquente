@@ -1,9 +1,9 @@
 <?
-class MakingofsController extends AppController {
+    class MakingofsController extends AppController {
 
-    var $layout = 'admin';
+        var $layout = 'admin';
 
-    var $scaffold = 'admin';
+        var $scaffold = 'admin';
 
-}
+    }
 ?>

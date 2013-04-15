@@ -1,3 +1,5 @@
+<? $this->set("title_for_layout", "Batata"); ?>
+
 <? $this->assign('banner', ''); ?>
 <? $this->assign('release', ''); ?>
 

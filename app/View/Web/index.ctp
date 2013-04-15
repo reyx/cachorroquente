@@ -1,3 +1,5 @@
+<? $this->set("title_for_layout", "Batata"); ?>
+
 <? $this->Html->css('web/base', null, array('inline' => false)); ?>
 
 <ul class="breadcrumb">
@@ -38,7 +40,7 @@
 <p>Outras emissoras seguiram o mesmo caminho, apresentado Osasco como a <strong>“Capital do Cachorro Quente”</strong>...</p>
 
 <p class="align-center">
-    <img src="/img/web/logos_emissoras.jpg" alt="Globo, Record, Band, SBT, Rede TV!, TV Osasco, NGT" title="Globo, Record, Band, SBT, Rede TV!, TV Osasco, NGT" class="img-polaroid">
+    <? echo $this->Html->image('web/logos_emissoras.jpg', array('alt' => 'Globo, Record, Band, SBT, Rede TV!, TV Osasco, NGT')) ?>
 </p>
 
 <p>

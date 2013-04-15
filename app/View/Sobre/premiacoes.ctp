@@ -1,3 +1,5 @@
+<? $this->set("title_for_layout", "Batata"); ?>
+
 <ul class="breadcrumb">
     <li><a href="/sobre/introducao/">Sobre o Festival</a> <span class="divider">&raquo;</span></li>
     <li>Premiações</li>

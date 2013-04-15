@@ -1,0 +1,441 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"conditions"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"Site",
+				"SiteRuleAdmin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"working",
+				"workingGrid"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"tis",
+				"this"
+			],
+			[
+				"pa",
+				"padding	zen:css_properties"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"l",
+				"lowercase"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"f",
+				"first-child  (pseudo-class)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Controller/DogueirosController.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/cachorroquente.sublime-project",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/View/Elements/menu.ctp",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/webroot/less/bootstrap/forms.less",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/View/Dogueiros/voto.ctp",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/bootstrap.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/View/Layouts/default.ctp",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/webroot/less/web/base.less",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/View/Dogueiros/cadastro.ctp",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Controller/AppController.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/webroot/less/bootstrap/mixins.less",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Plugin/Less/View/Helper/LessHelper.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Plugin/less/README.md",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/webroot/css/web/base.css",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/webroot/css/bootstrap.min.css",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Model/Image.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Model/Apoiador.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Model/AppModel.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/index.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/index.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/acl.ini.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/acl.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/core.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/database.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/email.php.default",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/inflections.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/routes.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/Schema/db_acl.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/Schema/i18n.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/Schema/schema.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Config/Schema/sessions.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Console/cake.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Console/Command/AppShell.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Console/config/database.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Controller/ApoiadoresController.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Controller/ImagesController.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Controller/MakingofsController.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Controller/PagesController.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Controller/PostsController.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Controller/SchedulesController.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Controller/SobreController.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Controller/WebController.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Model/Article.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Model/Classificacao.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Model/Dogueiro.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Model/Makingof.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Model/Post.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Model/Schedule.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Plugin/Upload/.travis.yml",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Plugin/Upload/README.markdown",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Plugin/Upload/Lib/Error/Exception/UploadException.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Plugin/Upload/Model/Behavior/FileGrabberBehavior.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Plugin/Upload/Model/Behavior/FileImportBehavior.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Plugin/Upload/Model/Behavior/UploadBehavior.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Plugin/Upload/Test/Case/Model/Behavior/UploadTest.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Plugin/Upload/Test/Fixture/UploadFixture.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Autoloader.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorageFactory.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Cell.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Chart.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Comment.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/DocumentProperties.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/DocumentSecurity.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Exception.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/HashTable.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/IComparable.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/IOFactory.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/NamedRange.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/ReferenceHelper.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/RichText.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Settings.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Style.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Worksheet.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/WorksheetIterator.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/APC.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/CacheBase.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/DiscISAM.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/ICache.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/Igbinary.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/Memcache.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/Memory.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/MemoryGZip.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/MemorySerialized.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/PHPTemp.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/SQLite.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/SQLite3.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/CachedObjectStorage/Wincache.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/Database.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/DateTime.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/Engineering.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/Exception.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/ExceptionHandler.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/Financial.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/FormulaParser.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/FormulaToken.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/Function.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/Functions.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/Logical.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/LookupRef.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/MathTrig.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/Statistical.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/TextData.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Calculation/Token/Stack.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Cell/AdvancedValueBinder.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Cell/DataType.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Cell/DataValidation.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Cell/DefaultValueBinder.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Cell/Hyperlink.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Cell/IValueBinder.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Chart/DataSeries.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Chart/DataSeriesValues.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Chart/Exception.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Chart/Layout.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Chart/Legend.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Chart/PlotArea.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Chart/Title.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Chart/Renderer/jpgraph.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Reader/CSV.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Reader/DefaultReadFilter.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Reader/Excel2003XML.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Reader/Excel2007.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Reader/Excel5.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Reader/Gnumeric.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Reader/HTML.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Reader/IReader.php",
+		"/C/Projects/Reyx/Web/php/cachorroquente/app/Vendor/excel/PHPExcel/Reader/IReadFilter.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\Model",
+			"C:\\Projects\\Reyx\\Web\\php\\cachorroquente\\app\\Model<?",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"5px 6px",
+			"radius",
+			"<?php",
+			"<?",
+			"url",
+			"\\",
+			"mod_rew",
+			"inscrevam",
+			"liked",
+			"feature",
+			"dajax",
+			"detail",
+			"PROJECT_ROOT",
+			"RECAPTCHA",
+			"reyx",
+			"askbot",
+			"tabs",
+			")\n",
+			"var",
+			"applicationpools",
+			"/lukamila",
+			"www.reyx.com.br/lukamila",
+			"/lukamila",
+			".com.br",
+			"www.reyx.com.br/casamento",
+			"permalink_structure",
+			"reyx",
+			"casamento.reyx.com.br?",
+			"casamento.reyx.com.brwp",
+			"casamento.reyx",
+			"www.reyx.com.br/casamento/",
+			"222",
+			"                                ",
+			"render",
+			"scroll",
+			"subTitulo",
+			"titulo",
+			"remove",
+			"dragga",
+			"$( ",
+			") )",
+			"if(",
+			"){",
+			"  ",
+			"    ",
+			"appBar",
+			"appbar",
+			"id=\"changelist\"",
+			"evento",
+			"greenDark",
+			"fotos",
+			"post",
+			"h3",
+			"file",
+			"response_mimetype",
+			"<",
+			"img",
+			"breadcrumb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"<?",
+			"<?php",
+			"/",
+			"craftbr",
+			"",
+			"lukamila.reyx.com.br",
+			"casamento.reyx.com.br",
+			"casamento.reyx.com.br/?",
+			"casamento.reyx.com.br/wp",
+			"casamento.reyx.com.br",
+			"FF1D1D1D",
+			"",
+			"subtitulo",
+			"Titulo",
+			"$(",
+			"))",
+			"if (",
+			") {",
+			"",
+			"curso",
+			"pink",
+			"evento",
+			"h2"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 330.0,
+	"status_bar_visible": true
+}

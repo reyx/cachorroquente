@@ -32,8 +32,8 @@ $cakeDescription = __d('cake_dev', '2º Festival do Cachorro Quente - Osasco - S
 		echo $this->Html->meta(array('author' => 'Evandro Temperini, Regis Silva'));
 		echo $this->fetch('meta');
 
-		echo $this->Html->css('bootstrap/bootstrap.css');
-		echo $this->Html->css('web/base');
+		echo $this->Less->css('bootstrap/bootstrap');
+		echo $this->Less->css('web/base');
 		echo $this->fetch('css');
 
 		echo $this->Html->meta('icon');

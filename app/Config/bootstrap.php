@@ -110,4 +110,6 @@ CakeLog::config('error', array(
 
 
 include dirname(__FILE__).DS.'inflections.php';
+CakePlugin::load('Less');
+CakePlugin::load('Localized');
 CakePlugin::load('Upload');

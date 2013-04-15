@@ -1,3 +1,5 @@
+<? $this->set("title_for_layout", "Batata"); ?>
+
 <ul class="breadcrumb">
     <li>Os 30 Melhores de Osasco em 2012</li>
 </ul>

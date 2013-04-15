@@ -3,7 +3,8 @@
         'abdomens' => 'abdomen',
         'alemao' => 'alemaes',
         'apoiador' => 'apoiadores',
-        'classificacao' => 'classificacoes'
+        'classificacao' => 'classificacoes',
+        'user' => 'users'
     );
 
     $_uninflected = array('atlas', 'lapis', 'onibus', 'pires', 'virus', '.*x', 'status');

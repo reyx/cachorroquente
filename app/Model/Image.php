@@ -1,4 +1,5 @@
 <?
+<?
     class Image extends AppModel {
 
         var $belongsTo = array('Makingof'=>array('className'=>'Makingof'));
@@ -10,7 +11,7 @@
                         'dir' => 'img_dir'
                     ),
                     # 'pathMethod' => 'flat'
-                    # 'thumbnailMethod' => 'php',
+                    'thumbnailMethod' => 'php',
                     'thumbnailSizes' => array(
                         'thumb' => '[130x77]'
                     )

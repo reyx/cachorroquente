@@ -1,3 +1,5 @@
+<? $this->set("title_for_layout", "Batata"); ?>
+
 <? $this->fetch('banner'); ?>
 
 
@@ -40,7 +42,7 @@
 <br>
 <br>
 
-<h4 class="alert alert-error">Concurso do melhor cachorro-quente</h4>
+<h4 class="destaque">Concurso do melhor cachorro-quente</h4>
 <p>
     No local, as votações terão início as 13:00h com encerramento previsto para as 20:00h, será
     informatizada e disponibilizada em 5 cabines com urnas eletrônicas.
@@ -65,7 +67,7 @@
 <br>
 <br>
 
-<h4 class="alert alert-error">Campeonato de quem come mais cachorro-quente</h4>
+<h4 class="destaque">Campeonato de quem come mais cachorro-quente</h4>
 <p>
     O campeonato acontecerá em uma única etapa, os interessados deverão se inscrever pelo site do
     evento e no dia será feito um sorteio onde 15 pessoas irão disputar quem come mais Hot Dog’s em
