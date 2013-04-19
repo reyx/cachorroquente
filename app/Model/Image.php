@@ -1,5 +1,4 @@
 <?
-<?
     class Image extends AppModel {
 
         var $belongsTo = array('Makingof'=>array('className'=>'Makingof'));

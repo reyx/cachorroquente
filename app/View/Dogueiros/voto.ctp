@@ -12,8 +12,6 @@
     Os **20** finalistas participarão do 2º Festival do Cachorro Quente de Osasco e concorrerão a prêmios de milhares de reais.
 </strong>
 
-<br>
-
 <div class="row-fluid">
 <?
     echo $this->Form->create('Voto');

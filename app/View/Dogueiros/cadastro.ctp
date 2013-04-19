@@ -18,9 +18,7 @@
     Quer participar do evento que mudou a história de Osasco? Preencha o formulário
     abaixo e um representante entrará em contato. Será um prazer tê-lo conosco.
 </strong>
-<br>
-<br>
-<br>
+
 <div class="row-fluid">
 <?
     echo $this->Form->create('Dogueiro', array(
